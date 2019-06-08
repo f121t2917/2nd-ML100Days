@@ -122,7 +122,51 @@ EDA: 把連續型變數離散化
 ### D35 regression vs. classification
 回歸問題與分類問題的區別？如何定義專案的目標
 
+### D36 評估指標選定/evaluation metrics
+專案該如何選擇評估指標？常用指標有哪些？
+
+### D37 regression model 介紹 - 線性迴歸/羅吉斯回歸
+線性迴歸/羅吉斯回歸模型的理論基礎與使用時的注意事項
+
+### D38 regression model 程式碼撰寫
+如何使用 Scikit-learn 撰寫線性迴歸/羅吉斯回歸模型的程式碼
+
+### D39 regression model 介紹 - LASSO 回歸/ Ridge 回歸
+LASSO 回歸/ Ridge 回歸的理論基礎與與使用時的注意事項
+
+### D40 regression model 程式碼撰寫
+使用 Scikit-learn 撰寫 LASSO 回歸/ Ridge 回歸模型的程式碼
+
+### D41 tree based model - 決策樹 (Decision Tree) 模型介紹
+決策樹 (Decision Tree) 模型的理論基礎與使用時的注意事項
+
+### D42 tree based model - 決策樹程式碼撰寫
+使用 Scikit-learn 撰寫決策樹 (Decision Tree) 模型的程式碼
+
+### D43 tree based model - 隨機森林 (Random Forest) 介紹
+隨機森林 (Random Forest)模型的理論基礎與使用時的注意事項
+
+### D44 tree based model - 隨機森林程式碼撰寫
+使用 Scikit-learn 撰寫隨機森林 (Random Forest) 模型的程式碼
+
+### D45 tree based model - 梯度提升機 (Gradient Boosting Machine) 介紹
+梯度提升機 (Gradient Boosting Machine) 模型的理論基礎與使用時的注意事項
+
+### D46 tree based model - 梯度提升機程式碼撰寫
+使用 Scikit-learn 撰寫梯度提升機 (Gradient Boosting Machine) 模型的程式碼
+
 ## 4-機器學習調整參數
+### D47 超參數調整與優化
+什麼是超參數 (Hyper-paramter) ? 如何正確的調整超參數？常用的調參方法為何？
+
+### D48 Kaggle 競賽平台介紹
+介紹全球最大的資料科學競賽網站。如何參加競賽？
+
+### D49 集成方法 : 混合泛化(Blending)
+什麼是集成? 集成方法有哪些? Blending 的寫作方法與效果為何?
+
+### D50 集成方法 : 堆疊泛化(Stacking)
+Stacking 的設計方向與主要用途是什麼? 通常會使用什麼套件實作?
 
 ## 5-非監督式機器學習
 
