@@ -6,22 +6,22 @@
 
 ### D2 EDA-1/讀取資料EDA: Data summary
 * 探索式資料分析(Exploratory Data Analysis，簡稱EDA)
-* 如何讀取資料以及萃取出想要了解的信息
+    * 如何讀取資料以及萃取出想要了解的信息
 
 ### D3 3-1如何新建一個 dataframe?
-* 從頭建立一個 dataframe 
+    * 從頭建立一個 dataframe 
 ### 3-2 如何讀取其他資料? (非 csv 的資料)
 * 如何讀取不同形式的資料 (如圖檔、純文字檔、json 等)
 
 ### D4 EDA: 欄位的資料類型介紹及處理
-了解資料在 pandas 中可以表示的類型
+    了解資料在 pandas 中可以表示的類型
 
 ### D5 EDA資料分佈
-用統計方式描述資料
+    用統計方式描述資料
 
 ### D6 EDA: Outlier 及處理
-偵測與處理例外數值點：
-1. 透過常用的偵測方法找到例外 
+    偵測與處理例外數值點：
+    1. 透過常用的偵測方法找到例外 
 2. 判斷例外是否正常 (推測可能的發生原因)
 
 ### D7 常用的數值取代：中位數與分位數連續數值標準化
@@ -188,12 +188,65 @@ K-means
 ### D56 K-mean 觀察 : 使用輪廓分析
 非監督模型要以特殊評估方法(而非評估函數)來衡量, 今日介紹大家了解並使用其中一種方法 : 輪廓分析
 
+### D57 clustering 3 階層分群算法
+hierarchical clustering
+
+### D58 階層分群法 觀察 : 使用 2D 樣版資料集
+非監督評估方法 : 2D樣版資料集是什麼? 如何生成與使用?
+
+### D59 dimension reduction 1 降維方法-主成份分析
+PCA
+
+### D60 PCA 觀察 : 使用手寫辨識資料集
+以較複雜的範例 : sklearn版手寫辨識資料集, 展示PCA的降維與資料解釋能力
+
+### D61 dimension reduction 2 降維方法-T-SNE
+TSNE
+
+### D62 t-sne 觀察 : 分群與流形還原
+什麼是流形還原? 除了 t-sne 之外還有那些常見的流形還原方法?
+
 ## 6-深度學習理論與實作
 神經網路的運用
+
+### D63 神經網路介紹
+Neural Network 簡介
+
+### D64 深度學習體驗 : 模型調整與學習曲線
+介紹體驗平台 TensorFlow PlayGround，並初步了解模型的調整
+
+### D65 深度學習體驗 : 啟動函數與正規化
+在 TF PlayGround 上，體驗進階版的深度學習參數調整 
 
 ## 7-初探深度學習使用 Keras
 學習機器學習(ML)與深度學習( DL) 的好幫手
 
+### D66 Keras 安裝與介紹
+如何安裝 Keras 套件
+
+### D67 Keras Dataset
+Keras embedded dataset的介紹與應用
+
+### D68 Keras Sequential API
+序列模型搭建網路
+
+### D69 Keras Module API
+Keras Module API的介紹與應用
+
+### D70 Multi-layer Perception多層感知
+MLP簡介
+
+### D71 損失函數
+損失函數的介紹與應用
+
+### D72 啟動函數
+啟動函數的介紹與應用
+
+### D73 梯度下降Gradient Descent
+梯度下降Gradient Descent簡介
+
+### D74 Gradient Descent 數學原理
+介紹梯度下降的基礎數學原理
 
 ## 8-深度學習應用卷積神經網路
 卷積神經網路(CNN)常用於影像辨識的各種應用，譬如醫療影像與晶片瑕疵檢測
